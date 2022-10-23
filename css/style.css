@@ -1,0 +1,110 @@
+header {
+  background-image: url(../img/events-heavenly-header.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  font-size: 3rem;
+}
+#menuList { 
+  width: 0;
+  overflow: hidden;
+  padding: 0 !important;
+}
+.fa-bars,
+.menu li,
+.fa-xmark,
+.acord h4 {
+  cursor: pointer;
+}
+
+.menu a:hover {
+  color: rgb(214, 46, 51) !important;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -ms-transition: .5s all;
+  -o-transition: .5s all;
+}
+
+.acord p{
+  height: 180px;
+}
+.acord{
+  transition: height 0.3s ease;
+  height: 44px;
+  overflow: hidden;
+}
+.acord.active {
+  height: 220px;
+}
+.active i{
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+.icon   {
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  cursor: pointer;
+}
+.icon:hover  {
+  background-color: rgb(220, 53, 69) ;
+}
+.icon:hover i {
+    color: white !important;
+}
+.scroll {
+  height: 30px;
+  width: 30px;
+  right: 40px;
+  bottom: 40px;
+  cursor: pointer;
+  display: flex;
+  display: none;
+}
+input:focus,
+textarea:focus{
+  box-shadow:0px 0px 10px rgb( 220,53,69) !important;
+  border-color: rgb(220, 53, 69) !important;
+}
+.form-check .form-check-input{
+  margin-left: 0 !important;
+  border: 1px solid rgb(220, 53, 69);
+}
+.form-check-input:checked {
+  background-color: rgb(220, 53, 69);
+}
+.bgPrime {
+  background-color: rgb(43, 42, 42) !important;
+}
+.bgSec {
+  background-color: rgb(0, 0, 0) !important;
+}
+.textDanger {
+  color: rgb(220, 53, 69) !important;
+}
+.textMuted{
+  color: rgb(97, 96, 96) !important;
+}
+.inpDark {
+  background-color: rgb(65, 65, 65) !important;
+}
+.colorDark {
+  color: white !important;
+}
+::selection {
+  background-color: rgb(220, 53, 69) ;
+  color: white;
+}
